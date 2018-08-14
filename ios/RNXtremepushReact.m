@@ -12,7 +12,7 @@
 
 RCT_EXPORT_METHOD(hitEvent : (NSString *)event)
 {
-    [XPush hitEvent : userId];
+    [XPush hitEvent : event];
 }
 
 RCT_EXPORT_MODULE()
