@@ -16,5 +16,5 @@ RCT_EXPORT_METHOD(hitEvent : (NSString *)event)
 }
 
 RCT_EXPORT_MODULE()
-ß@end
+∂ƒå@end
   
