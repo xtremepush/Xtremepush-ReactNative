@@ -1,6 +1,5 @@
-
 {
-  "name": "react-native-xtremepush-react",
+  "name": "xtremepush-react",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -14,5 +13,8 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
+  },
+  "dependencies": {
+    "react-native-xtremepush-react": "github:xtremepush/Xtremepush-ReactNative"
   }
 }

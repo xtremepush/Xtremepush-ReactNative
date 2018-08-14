@@ -1,7 +1,7 @@
 
 import { NativeModules } from 'react-native';
 
-const Xtremepush = require('react-native').NativeModules.RNXtremepushReact;
+const Xtremepush = require('react-native').NativeModules.Xtremepush;
 
 export default Xtremepush;
 
