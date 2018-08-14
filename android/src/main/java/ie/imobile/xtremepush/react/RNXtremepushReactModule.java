@@ -47,7 +47,7 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
 
     @ReactMethod
     public void openInbox(){
-        mPushConnector.openInbox();
+        mPushConnector.openInbox(getCurrentActivity());
     }
 
     @ReactMethod
