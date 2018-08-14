@@ -1,5 +1,0 @@
-framework module XPush {
-  umbrella header "XPush.h"
-  export *
-  module * { export *}
-}
