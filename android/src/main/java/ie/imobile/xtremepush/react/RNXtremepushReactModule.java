@@ -42,4 +42,19 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
     public void hitEventWithValue(String event, String value){
         mPushConnector.hitEvent(event, value);
     }
+
+    @ReactMethod
+    public void openInbox(){
+        mPushConnector.openInbox();
+    }
+
+    @ReactMethod
+    public void setUser(String user){
+        mPushConnector.setUser(user);
+    }
+
+     @ReactMethod
+     public void setExternalId(String user){
+        mPushConnector.setExternalId(user);
+     }
 }
