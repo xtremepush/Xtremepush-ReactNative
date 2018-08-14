@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73871BDF2122D56500C6009B /* XPush.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73871BDE2122D56500C6009B /* XPush.framework */; };
+		73871BE02122D56C00C6009B /* XPush.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 73871BDE2122D56500C6009B /* XPush.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNXtremepushReact.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNXtremepushReact.m */; };
 /* End PBXBuildFile section */
 
@@ -17,6 +19,7 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				73871BE02122D56C00C6009B /* XPush.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -24,6 +27,7 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNXtremepushReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNXtremepushReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		73871BDE2122D56500C6009B /* XPush.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XPush.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNXtremepushReact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNXtremepushReact.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNXtremepushReact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNXtremepushReact.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -33,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73871BDF2122D56500C6009B /* XPush.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,6 +55,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				73871BDE2122D56500C6009B /* XPush.framework */,
 				B3E7B5881CC2AC0600A0062D /* RNXtremepushReact.h */,
 				B3E7B5891CC2AC0600A0062D /* RNXtremepushReact.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
@@ -203,6 +209,10 @@
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -220,6 +230,10 @@
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
