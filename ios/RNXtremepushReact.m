@@ -1,5 +1,5 @@
 #import "RNXtremepushReact.h"
-#import XPush
+#import "XPush.h"
 
 @implementation RNXtremepushReact
 
@@ -16,5 +16,5 @@ RCT_EXPORT_METHOD(hitEvent : (NSString *)event)
 }
 
 RCT_EXPORT_MODULE()
-∂ƒå@end
+@end
   
