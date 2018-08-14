@@ -15,6 +15,6 @@ RCT_EXPORT_METHOD(hitEvent : (NSString *)event)
     [XPush hitEvent : event];
 }
 
-RCT_EXPORT_MODULE()
+RCT_EXPORT_MODULE("Xtremepush")
 @end
   

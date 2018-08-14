@@ -20,7 +20,7 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RNXtremepushReact";
+        return "Xtremepush";
     }
 
     @ReactMethod

@@ -1,33 +1,33 @@
 
 import { NativeModules } from 'react-native';
 
-const RNXtremepushReact = require('react-native').NativeModules.RNXtremepushReact;
+const Xtremepush = require('react-native').NativeModules.RNXtremepushReact;
 
-export default RNXtremepushReact;
+export default Xtremepush;
 
 
 function hitEvent(event){
-    RNXtremepushReact.hitEvent(event);
+    Xtremepush.hitEvent(event);
 }
 
 function hitTag(tag){
-    RNXtremepushReact.hitTag(event);
+    Xtremepush.hitTag(event);
 }
 
 function hitTagWithValue(tag, value){
-    RNXtremepushReact.hitTag(event);
+    Xtremepush.hitTag(event);
 }
 
 function openInbox(){
-    RNXtremepushReact.openInbox();
+    Xtremepush.openInbox();
 }
 
 function setUser(user){
-    RNXtremepushReact.setUser(user);
+    Xtremepush.setUser(user);
 }
 
 function setExternalId(id){
-    RNXtremepushReact.setExternalId(id);
+    Xtremepush.setExternalId(id);
 }
 
 
