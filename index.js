@@ -15,7 +15,7 @@ function hitTag(tag){
 }
 
 function hitTagWithValue(tag, value){
-    Xtremepush.hitTag(event);
+    Xtremepush.hitTagWithValue(tag, value);
 }
 
 function openInbox(){
