@@ -11,7 +11,7 @@ function hitEvent(event){
 }
 
 function hitTag(tag){
-    Xtremepush.hitTag(event);
+    Xtremepush.hitTag(tag);
 }
 
 function hitTagWithValue(tag, value){

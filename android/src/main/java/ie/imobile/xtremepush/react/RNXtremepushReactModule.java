@@ -39,11 +39,6 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void hitEventWithValue(String event, String value){
-        mPushConnector.hitEvent(event, value);
-    }
-
-    @ReactMethod
     public void openInbox(){
         mPushConnector.openInbox(getCurrentActivity());
     }
