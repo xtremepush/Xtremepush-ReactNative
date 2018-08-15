@@ -1,0 +1,10 @@
+.DS_Store
+.idea
+android/.gradle/
+android/android.iml
+android/build/
+android/local.properties
+android/xtremepush-react.iml
+ios/RNXtremepushReact.xcodeproj/xcuserdata/michael.xcuserdatad/
+node_modules/
+package-lock.json

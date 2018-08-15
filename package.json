@@ -13,8 +13,5 @@
   "license": "",
   "peerDependencies": {
     "react-native": "^0.41.2"
-  },
-  "dependencies": {
-    "react-native-xtremepush-react": "github:xtremepush/Xtremepush-ReactNative"
   }
 }
