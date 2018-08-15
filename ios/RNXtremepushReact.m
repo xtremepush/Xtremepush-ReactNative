@@ -41,6 +41,6 @@ RCT_EXPORT_METHOD(openInbox)
     [XPush openInbox];
 }
 
-RCT_EXPORT_MODULE("Xtremepush")
+RCT_EXPORT_MODULE(Xtremepush)
 @end
   
