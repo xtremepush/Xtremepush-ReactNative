@@ -11,8 +11,6 @@ import com.facebook.react.bridge.Callback;
 
 public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
 
-    private Activity activity;
-
     private final ReactApplicationContext reactContext;
 
     public RNXtremepushReactModule(ReactApplicationContext reactContext) {
