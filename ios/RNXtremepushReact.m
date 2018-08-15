@@ -21,7 +21,7 @@ RCT_EXPORT_METHOD(hitTag : (NSString *)tag)
     [XPush hitTag : tag];
 }
 
-RCT_EXPORT_METHOD(hitTag : (NSString *)tag withValue: (NSString *)value)
+RCT_EXPORT_METHOD(hitTagWithValue : (NSString *)tag withValue: (NSString *)value)
 {
     [XPush hitTag : tag withValue:value];
 }
