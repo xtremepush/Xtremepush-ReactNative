@@ -20,7 +20,7 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
 
     @Override
     public String getName() {
-        return "RNXtremepushReact";
+        return "Xtremepush";
     }
 
     @ReactMethod
@@ -39,13 +39,8 @@ public class RNXtremepushReactModule extends ReactContextBaseJavaModule {
     }
 
     @ReactMethod
-    public void hitEventWithValue(String event, String value){
-        mPushConnector.hitEvent(event, value);
-    }
-
-    @ReactMethod
     public void openInbox(){
-        mPushConnector.openInbox();
+        mPushConnector.openInbox(getCurrentActivity());
     }
 
     @ReactMethod
